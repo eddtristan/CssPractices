@@ -9,16 +9,21 @@ header {
 }
 
 h1 {
+    font-size: 50px;
     color: white;
     text-align: center;
+}
+
+.container {
+    height: 80vh;
 }
 
 aside {
     background: #cccccc;
     padding-top: 5%;
     padding-left: 3%;
-    height: 80vh;
-    width: 20vh;
+    height: 100%;
+    width: 25%;
     float: left;
 }
 
@@ -28,3 +33,24 @@ aside {
     color: rgb(28, 128, 128);
 }
 
+section {
+    height: 80vh;
+    width: 75%;
+    padding: 5%;
+    background: #f1f1f1;
+    float: left;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+.textoPrincipal {
+    margin-bottom: 5%;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
