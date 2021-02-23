@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 15vh;
+    background: #666666;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
