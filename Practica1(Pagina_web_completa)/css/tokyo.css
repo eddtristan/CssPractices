@@ -12,3 +12,19 @@ h1 {
     color: white;
     text-align: center;
 }
+
+aside {
+    background: #cccccc;
+    padding-top: 5%;
+    padding-left: 3%;
+    height: 80vh;
+    width: 20vh;
+    float: left;
+}
+
+.containerLinks > a{
+    display: block;
+    margin: 5%;
+    color: rgb(28, 128, 128);
+}
+
