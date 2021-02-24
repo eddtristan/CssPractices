@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #666666;
+    height: 10vh;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.container {
+    height: 85vh;
+}
+
+aside {
+    height: 100%;
+    width: 25%;
+    background-color: #cccccc;
+    padding-top: 10%;
+    float: left;
+}
+
+/*Se afectaran todos los elementos que tengan la clase
+"contenedorLinks" que existan dentro de un aside*/
+aside > .contenedorLinks {
+    height: 20%;
+    width: 80%;
+    margin: auto;
+}
+
+.contenedorLinks > a {
+    display: block;
+    color: rgb(8, 128, 128);
+    margin: 5px;
+}
+
+section {
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-top: 5%;
+    background: #f1f1f1;
+}
+
+h3 {
+    font-size: 40px;
+    width: 90%;
+    margin: auto auto 5% auto;
+}
+
+.textoPrincipal {
+    font-size: 18px;
+    width: 90%;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+iframe {
+    display: block;
+    margin: 3% auto;
+}
+
+footer {
+    background: #666666;
+    height: 5vh;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+}
