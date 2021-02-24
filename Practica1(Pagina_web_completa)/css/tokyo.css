@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 15vh;
+    background: #666666;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    height: 80vh;
+}
+
+aside {
+    background: #cccccc;
+    padding-top: 5%;
+    padding-left: 3%;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.containerLinks > a{
+    display: block;
+    margin: 5%;
+    color: rgb(28, 128, 128);
+}
+
+section {
+    height: 80vh;
+    width: 75%;
+    padding: 5%;
+    background: #f1f1f1;
+    float: left;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+.textoPrincipal {
+    margin-bottom: 3%;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    height: 5vh;
+    background: #666666;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+}
