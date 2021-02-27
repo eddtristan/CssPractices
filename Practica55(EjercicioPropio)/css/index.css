@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 12vh;
+    position: relative;
+    background: #f6f6f6;
+}
+
+header > div {
+    display: flex;
+    width: 40vw;
+}
+
+header > .mirada {
+    position: absolute;
+    left: 11%;
+    bottom: 15%;
+    font-size: 20px;
+    color: lawngreen;
+}
+
+header > div > div {
+    margin: 0;
+    width: 10%;
+    font-size: 70px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > div > div:last-child{
+    justify-content: left;
+}
+
+header > div > .titulo {
+    font-size: 18px;
+    border-radius: 50%;
+    color: lawngreen;
+    border: 5px solid lawngreen;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header > div > .titulo > p {
+    transform: translate(0%, -10%);
+}
