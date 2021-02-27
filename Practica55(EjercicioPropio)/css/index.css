@@ -20,7 +20,7 @@ header > .mirada {
     left: 11%;
     bottom: 15%;
     font-size: 20px;
-    color: lawngreen;
+    color: green;
 }
 
 header > div > div {
@@ -40,8 +40,8 @@ header > div > div:last-child{
 header > div > .titulo {
     font-size: 18px;
     border-radius: 50%;
-    color: lawngreen;
-    border: 5px solid lawngreen;
+    color: green;
+    border: 5px solid green;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -49,3 +49,30 @@ header > div > .titulo {
 header > div > .titulo > p {
     transform: translate(0%, -10%);
 }
+
+.navegacion {
+    color: white;
+    background: white;
+    display: flex;
+    height: 3vh;
+    width: 100%;
+}
+
+.navegacion > div {
+    width: 11vw;
+    margin: 2px;
+    background: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacion > div:last-child {
+    background: gray;
+}
+
+.fecha {
+    flex-grow: 2;
+    background: #000;
+}
+
