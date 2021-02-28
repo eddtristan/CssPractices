@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+ 
 body {
     margin: 0;
     padding: 0;
@@ -77,7 +85,7 @@ header > div > .titulo > p {
 }
 
 .imagenPrincipal {
-    height: 30vh;
+    height: 35vh;
     width: 100%;
     margin: 0;
     color: white;
@@ -108,4 +116,166 @@ header > div > .titulo > p {
 
 h2 > span {
     color: green;
+}
+
+.recomendaciones {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+
+.morado {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 25vw;
+    background: purple;
+}
+
+.morado > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.morado > div > h2 {
+    margin: 0;
+    margin-top: 10%;
+}
+
+.morado > .redondoMorado {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 35%;
+    background: #ba0099;
+    border: 5px solid gray;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.redondoMorado > h3 {
+    position: absolute;
+    font-size: 45px;
+}
+
+.redondoMorado > p {
+    position: absolute;
+    font-size: 25px;
+    bottom: 3%;
+    right: 15%;
+}
+
+.morado > div:last-child {
+    margin-bottom: 10%;
+}
+
+.gris {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 25vw;
+    background: rgb(75, 71, 71);
+}
+
+.gris > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gris > div > h2 {
+    margin: 0;
+    margin-top: 10%;
+}
+
+.gris > .redondoGris {
+    border: 5px solid lawngreen;
+    border-radius: 50%;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    padding: 10% 0%;
+}
+
+.redondoGris > h3 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.redondoGris > p {
+    margin: 0;
+}
+
+.gris > .texto {
+    width: 80%;
+    text-align:center
+}
+
+.gris > .footer > h4 {
+    margin: 0;
+    color: green;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 25vw;
+    background: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.imagenes > div > img {
+    width: 25%;
+    height: 100%;
+}
+
+.imagenes > .amigos > img {
+    margin: 1px;
+    width: 25%;
+    height: 40%;
+}
+
+.imagenes > .amigos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.verde {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    text-align: left;
+    background: url("./../assets/aurora.jpg");
+    color: white;
+    margin: 10px;
+    width: 25vw;
+}
+
+.verde > .contactanos {
+    color: green;
+}
+
+.verde > h2 {
+    font-size: 40px;
+    margin: 2% 0%;
+}
+
+.verde > p {
+    margin: 5% 0%;
 }
