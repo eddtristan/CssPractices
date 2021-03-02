@@ -46,6 +46,8 @@ header > div > div:last-child{
 }
 
 header > div > .titulo {
+    height: 7vh;
+    width: 7vh;
     font-size: 18px;
     border-radius: 50%;
     color: green;
@@ -150,8 +152,8 @@ h2 > span {
 .morado > .redondoMorado {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 35%;
+    width: 18vh;
+    height: 18vh;
     background: #ba0099;
     border: 5px solid gray;
     border-radius: 50%;
@@ -202,8 +204,8 @@ h2 > span {
 .gris > .redondoGris {
     border: 5px solid lawngreen;
     border-radius: 50%;
-    width: 40%;
-    height: 100%;
+    width: 15vh;
+    height: 15vh;
     position: relative;
     padding: 10% 0%;
 }
