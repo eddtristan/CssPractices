@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadro {
+    width: 90vw;
+    height: 40vh;
+    background: #999;
+}
+
+.pelota {
+    width: 5vh;
+    height: 5vh;
+    background: #fff;
+    position: relative;
+    border-radius: 50%;
+    animation: revote 3s linear alternate-reverse infinite;
+}
+
+@keyframes revote {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    20% {
+        top: 35vh;
+        left: 20%;
+        background: blue;
+    }
+    40% {
+        top: 0%;
+        left: 40%;
+    }
+    60% {
+        top: 35vh;
+        left: 60%;
+        background: yellow;
+    }
+    80% {
+        top: 0%;
+        left: 80%;
+    }
+    100% {
+        top: 35vh;
+        left: 88vh;
+        background: red;
+    }
+}
