@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #2e2e41;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul > li {
+    list-style-type: none;
+    margin: 0 20px;
+    height: 10vh;
+}
+
+ul > li > a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+}
